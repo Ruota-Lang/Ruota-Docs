@@ -67,7 +67,7 @@ p {
 	display: inline;
 }
 
-.overview, .libraries, .usage, .navigation, .tutorials, .arguments, .methods, .syntaxes, .children, .parent, .variables, .inherits {
+.overview, .libraries, .usage, .navigation, .tutorials, .tutorial, .arguments, .methods, .syntaxes, .children, .parent, .variables, .inherits {
 	padding: 0px;
 	margin: 15px;
 	background: #f9f9f9;
