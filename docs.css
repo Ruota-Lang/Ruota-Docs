@@ -19,7 +19,7 @@ h1, h2 {
 	padding: 1.5em;
 	margin: 0.4em;
 	font-family: monospace;
-	background: #444;
+	background: #222;
 	color: #dedede;
 }
 
@@ -62,6 +62,7 @@ table tr:nth-child(odd) {
 
 p {
 	font-style: normal !important;
+	display: inline;
 }
 
 .overview, .libraries, .usage, .arguments, .methods, .syntaxes, .children, .parent, .variables, .inherits {
