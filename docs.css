@@ -14,6 +14,14 @@ h1 {
 	font-family: monospace;
 }
 
+.codeblock {
+	display: block;
+	padding: 3em;
+	font-family: monospace;
+	background: #444;
+	color: #dedede;
+}
+
 .child {
 	font-family: monospace;
 	font-size: 16px;
@@ -47,7 +55,7 @@ p {
 	font-style: normal !important;
 }
 
-.overview, .libraries, .arguments, .methods, .children, .parent, .variables, .inherits {
+.overview, .libraries, .arguments, .methods, .syntaxes, .children, .parent, .variables, .inherits {
 	padding: 0px;
 	margin: 15px;
 	background: #f9f9f9;
