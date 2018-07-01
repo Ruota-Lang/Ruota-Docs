@@ -5,6 +5,10 @@ body {
 	background: #612323;
 }
 
+a[disabled] {
+    pointer-events: none;
+}
+
 h1, h2 {
 	color: #612323;
 	margin: 0;
