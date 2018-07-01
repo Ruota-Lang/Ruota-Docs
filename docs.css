@@ -5,7 +5,7 @@ body {
 	background: #612323;
 }
 
-h1 {
+h1, h2 {
 	color: #612323;
 	margin: 0;
 }
@@ -17,9 +17,18 @@ h1 {
 .codeblock {
 	display: block;
 	padding: 1.5em;
+	margin: 0.4em;
 	font-family: monospace;
 	background: #444;
 	color: #dedede;
+}
+
+.codeblock p {
+	display: block;
+}
+
+.sub {
+	font-size: 14px
 }
 
 .child {
