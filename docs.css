@@ -76,6 +76,7 @@ p {
 
 .navigation .con > *:first-child { display: inline-block;}
 .navigation .con > *:last-child { float: right; }
+.navigation .con * { font-weight: normal; color: black !important; }
 
 th {
 	background: #db4343;
