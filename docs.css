@@ -60,6 +60,11 @@ table tr:nth-child(odd) {
     background-color: #fff;
 }
 
+a {
+	text-decoration: none;
+	color: inherit !important;
+}
+
 p {
 	font-style: normal !important;
 	display: inline;
@@ -105,7 +110,7 @@ h3 {
 
 .navbar > a {
 	text-decoration: none;
-	color: #fff;
+	color: #fff !important;
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
