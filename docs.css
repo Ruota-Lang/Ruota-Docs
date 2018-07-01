@@ -67,12 +67,15 @@ p {
 	display: inline;
 }
 
-.overview, .libraries, .usage, .tutorials, .arguments, .methods, .syntaxes, .children, .parent, .variables, .inherits {
+.overview, .libraries, .usage, .navigation, .tutorials, .arguments, .methods, .syntaxes, .children, .parent, .variables, .inherits {
 	padding: 0px;
 	margin: 15px;
 	background: #f9f9f9;
     border: 1px solid #444;
 }
+
+.navigation .con > *:first-child { display: inline-block;}
+.navigation .con > *:last-child { float: right; }
 
 th {
 	background: #db4343;
